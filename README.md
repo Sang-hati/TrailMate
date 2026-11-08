@@ -74,6 +74,6 @@ Tech stack
 •	Background work: foreground service for recording, WorkManager for daily step logging
 •	Other: step counter sensor, camera via FileProvider, MediaStore, notifications
 ________________________________________
-Sanghati Debnath ( CMSA - 546 – UG4)
+
 
 
