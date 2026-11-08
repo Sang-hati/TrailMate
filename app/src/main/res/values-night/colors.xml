@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="trail_green">#FF7FCB93</color>
+    <color name="trail_green_dark">#FFD6EBD8</color>
+    <color name="trail_green_light">#FF1F4A2D</color>
+    <color name="trail_earth">#FFC4A37C</color>
+    <color name="surface_bg">#FF101512</color>
+    <color name="text_primary">#FFE4EBE5</color>
+    <color name="text_secondary">#FF9AA89E</color>
+    <color name="error_red">#FFF2B8B5</color>
+    <color name="card_bg">#FF1A211C</color>
+    <color name="on_primary">#FF0E2A17</color>
+    <color name="grid_line">#FF2E3830</color>
+    <color name="toolbar_bg">#FF101512</color>
+    <color name="on_toolbar">#FFE4EBE5</color>
+</resources>

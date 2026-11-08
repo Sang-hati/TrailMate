@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Map pin -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,24 a16,16 0 0 1 16,16 c0,12 -16,28 -16,28 s-16,-16 -16,-28 a16,16 0 0 1 16,-16 z" />
+
+    <!-- Hole in the pin -->
+    <path
+        android:fillColor="#2E6B3E"
+        android:pathData="M54,40 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0" />
+
+    <!-- Trail under the pin -->
+    <path
+        android:pathData="M32,80 C42,72 48,86 58,78 S72,72 78,78"
+        android:strokeColor="#D6EBD8"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round" />
+</vector>

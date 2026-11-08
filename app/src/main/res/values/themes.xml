@@ -1,0 +1,60 @@
+<resources>
+    <style name="Theme.TrailMate" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/trail_green</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorPrimaryContainer">@color/trail_green_light</item>
+        <item name="colorOnPrimaryContainer">@color/trail_green_dark</item>
+        <item name="colorSecondary">@color/trail_earth</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondaryContainer">@color/trail_green_light</item>
+        <item name="colorOnSecondaryContainer">@color/trail_green_dark</item>
+        <item name="colorSurfaceVariant">@color/card_bg</item>
+        <item name="colorOutline">@color/text_secondary</item>
+        <item name="colorError">@color/error_red</item>
+        <item name="android:colorBackground">@color/surface_bg</item>
+        <item name="colorSurface">@color/surface_bg</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+        <item name="android:statusBarColor">@color/trail_green_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- Card whose top corners are rounded (bottom panels) -->
+    <style name="TopRounded" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">28dp</item>
+        <item name="cornerSizeTopRight">28dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+
+    <style name="Rounded16" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <!-- Stats screen -->
+    <style name="StatCard" parent="Widget.Material3.CardView.Elevated">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="cardBackgroundColor">@color/card_bg</item>
+    </style>
+    <style name="StatNumber">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/trail_green</item>
+    </style>
+    <style name="StatLabel">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+</resources>

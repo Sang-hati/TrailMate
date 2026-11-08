@@ -1,0 +1,22 @@
+<resources>
+    <style name="Theme.TrailMate" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/trail_green</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorPrimaryContainer">@color/trail_green_light</item>
+        <item name="colorOnPrimaryContainer">@color/trail_green_dark</item>
+        <item name="colorSecondary">@color/trail_earth</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorSecondaryContainer">@color/trail_green_light</item>
+        <item name="colorOnSecondaryContainer">@color/trail_green_dark</item>
+        <item name="colorSurfaceVariant">@color/card_bg</item>
+        <item name="colorOutline">@color/text_secondary</item>
+        <item name="colorError">@color/error_red</item>
+        <item name="android:colorBackground">@color/surface_bg</item>
+        <item name="colorSurface">@color/surface_bg</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+        <item name="android:statusBarColor">@color/surface_bg</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

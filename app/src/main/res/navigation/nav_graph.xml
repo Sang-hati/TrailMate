@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/hikeListFragment">
+
+    <fragment
+        android:id="@+id/hikeListFragment"
+        android:name="com.sd.trailmate.HikeListFragment"
+        android:label="My Hikes">
+        <action android:id="@+id/action_list_to_add"
+            app:destination="@id/addHikeFragment"/>
+        <action android:id="@+id/action_list_to_detail"
+            app:destination="@id/hikeDetailFragment"/>
+        <action android:id="@+id/action_list_to_stats"
+            app:destination="@id/statsFragment"/>
+        <action android:id="@+id/action_list_to_all"
+            app:destination="@id/allHikesFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/allHikesFragment"
+        android:name="com.sd.trailmate.AllHikesFragment"
+        android:label="All Trails">
+        <action android:id="@+id/action_all_to_detail"
+            app:destination="@id/hikeDetailFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/addHikeFragment"
+        android:name="com.sd.trailmate.AddHikeFragment"
+        android:label="Record Hike"/>
+
+    <fragment
+        android:id="@+id/hikeDetailFragment"
+        android:name="com.sd.trailmate.HikeDetailFragment"
+        android:label="Hike Detail">
+        <argument android:name="hikeId" app:argType="integer"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/statsFragment"
+        android:name="com.sd.trailmate.StatsFragment"
+        android:label="Stats"/>
+</navigation>
